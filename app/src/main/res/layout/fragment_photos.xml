@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhomu.test4.PhotosFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Wtree" >
+
+
+    </WebView>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="87dp"
+        android:layout_height="31dp"
+        android:layout_x="165dp"
+        android:layout_y="321dp"
+        android:id="@+id/textView"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="3dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal|bold" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="144dp"
+        android:layout_y="210dp"
+        android:id="@+id/progressBar3"
+        android:layout_gravity="center_vertical|center_horizontal" />
+
+</FrameLayout>
